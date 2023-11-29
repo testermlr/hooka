@@ -30,7 +30,7 @@ Project starts 2020-02-01
 ```
 </div>
 
-![Diagrama de Ejemplo](uml.svg)
+![uml](uml.svg)
 
 ---
 

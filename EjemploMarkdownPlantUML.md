@@ -6,8 +6,7 @@ Este archivo Markdown demuestra cómo integrar un diagrama de PlantUML.
 ## Diagrama PlantUML
 
 A continuación, se muestra un ejemplo de cómo incorporar un diagrama PlantUML en un archivo Markdown.
-
-```
+<!-- 
 @startgantt
 !theme vibrant
 
@@ -27,6 +26,7 @@ Project starts 2020-02-01
 
 @endgantt
 ```
+-->
 
 ![uml](uml.svg)
 

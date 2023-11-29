@@ -1,0 +1,37 @@
+
+# Ejemplo de Diagrama PlantUML en Markdown
+
+Este archivo Markdown demuestra cómo integrar un diagrama de PlantUML.
+
+## Diagrama PlantUML
+
+A continuación, se muestra un ejemplo de cómo incorporar un diagrama PlantUML en un archivo Markdown.
+
+<div hidden>
+```
+@startgantt
+!theme vibrant
+
+Project starts 2020-02-01
+
+-- Team 1 --
+[T1 - Requirements] as [T1R] lasts 1 week and 4 days and is 22% complete
+[T1 - Implementation] as [T1I] starts 2020-02-10 and ends 2020-02-22
+
+[T1R] is colored in pink
+[T1I] is colored in lightblue
+[T1I] is 90% completed
+
+-- Days Off --
+[Holidays] starts 2020-02-12 and ends 2020-02-14
+[Holidays] is colored in GreenYellow
+
+@endgantt
+```
+</div>
+
+![Diagrama de Ejemplo](uml.svg)
+
+---
+
+Puedes agregar más contenido Markdown aquí.
